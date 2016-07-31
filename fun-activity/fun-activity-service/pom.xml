@@ -3,16 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>fun-user</artifactId>
+        <artifactId>fun-activity</artifactId>
         <groupId>com.shugenja4j</groupId>
         <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fun-user-service</artifactId>
-    <name>fun-user-service</name>
+    <artifactId>fun-activity-service</artifactId>
+    <name>fun-activity-service</name>
     <packaging>jar</packaging>
-    <version>${fun.version}</version>
+    <version>0.1.0-SNAPSHOT</version>
 
     <build>
         <plugins>

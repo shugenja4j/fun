@@ -17,6 +17,34 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="fun-activity-api" />
+        <module name="fun-activity-service" />
+        <module name="fun-base-web" />
+        <module name="fun-user-api" />
+        <module name="fun-user-service" />
+        <module name="fun-wechat-gateway-api" />
+        <module name="fun-wechat-gateway-service" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fun-activity" target="1.8" />
+      <module name="fun-activity-api" target="1.8" />
+      <module name="fun-activity-service" target="1.8" />
+      <module name="fun-base-web" target="1.8" />
+      <module name="fun-common" target="1.8" />
+      <module name="fun-parent" target="1.8" />
+      <module name="fun-user" target="1.8" />
+      <module name="fun-user-api" target="1.8" />
+      <module name="fun-user-service" target="1.8" />
+      <module name="fun-web-servers" target="1.8" />
+      <module name="fun-wechat-gateway" target="1.8" />
+      <module name="fun-wechat-gateway-api" target="1.8" />
+      <module name="fun-wechat-gateway-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

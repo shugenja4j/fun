@@ -22,8 +22,8 @@
     </properties>
 
     <modules>
-        <module>fun-activity</module>
         <module>fun-common</module>
+        <module>fun-activity</module>
         <module>fun-user</module>
         <module>fun-web-servers</module>
         <module>fun-wechat-gateway</module>
@@ -31,13 +31,6 @@
     </modules>
 
     <dependencies>
-        <!-- sfun common-->
-        <dependency>
-            <groupId>com.fooluodi</groupId>
-            <artifactId>fun-common</artifactId>
-            <version>${fun-common.version}</version>
-        </dependency>
-
         <!-- Validation -->
         <dependency>
             <groupId>javax.validation</groupId>
