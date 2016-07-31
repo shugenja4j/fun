@@ -24,7 +24,6 @@
     <modules>
         <module>fun-activity</module>
         <module>fun-common</module>
-        <module>fun-config</module>
         <module>fun-user</module>
         <module>fun-web-servers</module>
         <module>fun-wechat-gateway</module>
