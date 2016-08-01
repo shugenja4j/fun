@@ -5,7 +5,7 @@ package com.shugenja.common.constant;
  *
  * 项目中涉及到的常量
  */
-public class ElfConstant {
+public class Constant {
     /* SUCCESS or FAILURE */
     public static final int SUCCESS = 1;
     public static final int FAILURE = 0;

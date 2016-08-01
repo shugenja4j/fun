@@ -1,7 +1,7 @@
 package com.shugenja.common.util.validate.function.handlers;
 
 
-import util.validate.ValidateException.ValidateException;
+import com.shugenja.common.util.validate.ValidateException.ValidateException;
 
 import java.lang.reflect.Field;
 

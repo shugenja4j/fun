@@ -1,13 +1,14 @@
 package com.shugenja.common.util.validate.function;
 
 
-import util.validate.ValidateException.ValidateException;
-import util.validate.annotation.Max;
-import util.validate.annotation.Min;
-import util.validate.annotation.NotNull;
-import util.validate.function.handlers.AbstractHandler;
-import util.validate.function.handlers.MaxHandler;
-import util.validate.function.handlers.NotNullHandler;
+
+import com.shugenja.common.util.validate.ValidateException.ValidateException;
+import com.shugenja.common.util.validate.annotation.Max;
+import com.shugenja.common.util.validate.annotation.Min;
+import com.shugenja.common.util.validate.annotation.NotNull;
+import com.shugenja.common.util.validate.function.handlers.AbstractHandler;
+import com.shugenja.common.util.validate.function.handlers.MaxHandler;
+import com.shugenja.common.util.validate.function.handlers.NotNullHandler;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

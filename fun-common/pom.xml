@@ -29,10 +29,18 @@
         <aopalliance.version>1.0</aopalliance.version>
         <pinyin4j-version>2.5.0</pinyin4j-version>
         <httpclient.version>4.3.5</httpclient.version>
+        <redis.vesion>2.6.0</redis.vesion>
 
     </properties>
 
     <dependencies>
+        <!-- redis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${redis.vesion}</version>
+        </dependency>
+
         <!-- apache commons lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>

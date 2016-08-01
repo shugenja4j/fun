@@ -1,8 +1,8 @@
 package com.shugenja.common.util.validate.function.handlers;
 
 
-import util.validate.ValidateException.ValidateException;
-import util.validate.annotation.Max;
+import com.shugenja.common.util.validate.ValidateException.ValidateException;
+import com.shugenja.common.util.validate.annotation.Max;
 
 import java.lang.reflect.Field;
 
