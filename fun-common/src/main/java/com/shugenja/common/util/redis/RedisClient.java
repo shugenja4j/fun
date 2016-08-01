@@ -1,6 +1,6 @@
 package com.shugenja.common.util.redis;
 
-import com.shugenja.common.util.JsonHelper;
+import com.shugenja.common.util.json.JsonHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.CollectionUtils;

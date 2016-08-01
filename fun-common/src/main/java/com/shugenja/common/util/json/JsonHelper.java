@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.shugenja.common.util;
+package com.shugenja.common.util.json;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;

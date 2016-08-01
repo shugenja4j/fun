@@ -1,4 +1,4 @@
-package com.shugenja.common.util;
+package com.shugenja.common.util.json;
 
 public class JsonException extends RuntimeException {
 
