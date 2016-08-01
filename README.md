@@ -1,0 +1,3 @@
+## FUN
+
+seed of java
