@@ -11,10 +11,16 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
         <fun.version>0.1.0-SNAPSHOT</fun.version>
         <fun-common.version>0.1.0-SNAPSHOT</fun-common.version>
     </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.0.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
     <modules>
         <module>fun-common</module>
@@ -23,11 +29,15 @@
         <module>fun-config</module>
         <module>fun-web-servers</module>
         <module>fun-wechat-gateway</module>
-
     </modules>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
